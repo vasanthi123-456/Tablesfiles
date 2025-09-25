@@ -1,0 +1,94 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Employee Details</title>
+
+        <style> 
+            table{ 
+                font-family: Arial, Helvetica, sans-serif; 
+                border: 1px solid green; 
+                width:50%; 
+                border-collapse: collapse; 
+            } 
+ 
+             caption{ 
+                font-size: 28px; 
+                font-weight: 10px; 
+                background-color: rgb(4, 103, 164); 
+                color: rgb(255, 255, 255); 
+            } 
+ 
+            td, th{ 
+                border: 1px solid green; 
+                text-align: left; 
+                padding:8px; 
+            } 
+ 
+            tr:nth-child(odd){ 
+                background-color: rgb(217, 82, 206); 
+            } 
+ 
+            .colSpan{ 
+                background-color: bisque; 
+            } 
+ 
+            .colRight{ 
+                background-color: aquamarine; 
+            } 
+ 
+        </style> 
+        <script></script> 
+        <link/> 
+    </head> 
+<body> 
+    <!--Company Details--> 
+    <table> 
+        <caption>Employee Details</caption>
+ 
+        <colgroup> 
+            <col span="2" class="colSpan"  > 
+            <col class="colRight"> 
+        </colgroup> 
+ 
+         
+        <tr> 
+            <th>Emp Name</th> 
+            <th>Emp ID</th>     
+            <th>Designation</th> 
+      
+        </tr> 
+        <tr> 
+          <td>KAvin</td> 
+          <td>212322</td> 
+          <td>Manager</td> 
+        </tr> 
+        <tr> 
+            <td>Anbu</td> 
+            <td>567822</td> 
+            <td>HR</td> 
+        </tr> 
+        <tr> 
+            <td>Malar</td> 
+            <td>212466</td> 
+            <td>Accountant</td> 
+        </tr> 
+        <tr> 
+            <td>Hema</td>
+            <td>451922</td> 
+            <td>Receptionist</td> 
+        </tr> 
+         <tr> 
+            <td>Priya</td> 
+            <td>457733</td> 
+            <td>Admin</td> 
+        </tr> 
+        <tr> 
+            <td>Siva</td> 
+            <td>239484</td> 
+            <td>Assitant Manager</td> 
+        </tr> 
+    </table> 
+</body> 
+</html> 
+ 
